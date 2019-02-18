@@ -81,7 +81,7 @@ def decrypt_message(file):
     Input:
         em (str): string to be decoded
     Output:
-        plaintext (str): decrypted message encoded using 'utf-8'
+        plaintext (str): decrypted message encoded using 'latin-1'
     '''
     secret_key = generate_key()
     box = nacl.secret.SecretBox(secret_key)
