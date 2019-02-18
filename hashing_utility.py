@@ -30,11 +30,6 @@ try:
 except:
     print("Cannot load the cryptographic library", file=sys.stderr)
     sys.exit()
-    
-# I wasn't sure what the most reasonable way to break down a file into
-# parts and use hashlib would be. I used the approach suggested in this
-# StackOverflow post: https://stackoverflow.com/questions/1131220/get-md5-hash
-# -of-big-files-in-python
 
 # hash in chunks
 hl = hashlib.sha256()
