@@ -125,7 +125,6 @@ if __name__ == "__main__":
             sys.exit()
 
         # check if file is blank
-        # https://piazza.com/class/jq7bxh4ew4f6fb?cid=51
         if os.path.getsize(args.file) == 0:
             print("This file is blank.", file=sys.stderr)
             sys.exit()
@@ -145,7 +144,6 @@ if __name__ == "__main__":
             sys.exit()
 
         # check if file is blank
-        # https://piazza.com/class/jq7bxh4ew4f6fb?cid=51
         if os.path.getsize(args.file) == 0:
             print("This file is blank.", file=sys.stderr)
             sys.exit()
