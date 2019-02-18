@@ -10,9 +10,6 @@ import string
 import numpy as np
 import re
 
-#/usr/bin/env python3
-
-
 def generate_key():
     '''
     Generates a secret key to be used in the SecretBox
@@ -156,7 +153,3 @@ if __name__ == "__main__":
             print("Please check that you entered the correct password" +
                   " and that the file you are trying to decrypt was encrypted " +
                   "by this utility")
-                  
-
-
-        
