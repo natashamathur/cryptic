@@ -1,13 +1,15 @@
 # cryptic
 
 This code is written in python3, and utilizes the following packages:
-        hashlib (https://docs.python.org/2/library/hashlib.html)
-        pynacl (https://pynacl.readthedocs.io/en/stable/secret/)
+
+* [hashlib](https://docs.python.org/2/library/hashlib.html)
+* [pynacl](https://pynacl.readthedocs.io/en/stable/secret/)
         
 The code is intended to be run from the command line. The following formats
 can be used for commands:
 
-    Suppose the file name of the original file is: sample.txt
+*Suppose the file name of the original file is: sample.txt*
+
      python3 project2.py generatekey
      python3 project2.py encrypt --file "sample.txt"
      python3 project2.py decrypt --file "sample_encrypted.bin"
