@@ -16,6 +16,8 @@ can be used for commands:
      python3 project2.py encrypt --file "sample.txt"
      python3 project2.py decrypt --file "sample_encrypted.bin"
      
+ ## How It Works
+     
 The encrypted file is stored in a separate binary file, and the resulting
 decryption is also saved in a separate text file. When you run the command line
 command it will print out the name of the file created.
