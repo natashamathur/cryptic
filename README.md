@@ -1,6 +1,8 @@
 # cryptic
 
-This code is written in python3, and utilizes the following packages:
+The file [`file_encryption_utility`](https://github.com/natashamathur/cryptic/blob/master/file_encryption_utility.py) contains a utility that can encrypt and decrypt a file and generate the cryptographic keys necessary to do so. It is designed to prevent unauthorized read/write access of the encrytped files either by an inside or outside attacker. 
+
+The code is written in python3, and utilizes the following packages:
 
 * [hashlib](https://docs.python.org/2/library/hashlib.html)
 * [pynacl](https://pynacl.readthedocs.io/en/stable/secret/)
