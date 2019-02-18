@@ -29,8 +29,8 @@ When a file is entered to be encrypted, the first step is to create a specific
 key to be used. An attacker would not know the key; however they should not be
 able to reconstruct the key solely from anything in the code.
 
-The user supplies a password that must contain numerical and non-numerical c
-haracters. If the provided password does not fulfill the requirement the system
+The user supplies a password that must contain numerical and non-numerical 
+characters. If the provided password does not fulfill the requirement the system
 exits. The function then hashes the textual part of the password using
 SHA-256. The hashed message is then further hashed through PBKDF2. The salt
 for this part is extracted from the numeric part of the password provided.
