@@ -1,7 +1,3 @@
-# Natasha Mathur
-# Introduction to Computer Security
-# Project 1
-
 import sys
 import os.path
 import argparse
