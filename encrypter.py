@@ -132,8 +132,6 @@ if __name__ == "__main__":
 
         # read file to a string and run the encryption function
         encrypted = encrypt_message(args.file)
-
-
         
     # to decrypt a file encrypted by this utilty
     # must provide the instruction "decrypt" and a file encrypted by this
