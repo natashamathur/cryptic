@@ -78,7 +78,7 @@ def decrypt_message(file):
     Input:
         em (str): string to be decoded
     Output:
-        plaintext (str): decrypted message encoded using 'latin-1'
+        plaintext (str): decrypted message encoded using 'utf-8'
     '''
     secret_key = generate_key()
     box = nacl.secret.SecretBox(secret_key)
@@ -89,7 +89,7 @@ def decrypt_message(file):
     with open(file,'rb') as c: 
         for chunk in iter(lambda: c.read(10040), b''):
             d = box.decrypt(chunk)
-            dw = d.decode("latin-1")
+            dw = d.decode("utf-8")
             text_file.write(dw)
 
     text_file.close()
