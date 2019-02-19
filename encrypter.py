@@ -95,10 +95,6 @@ def decrypt_message(file):
     text_file.close()
     print("The decrypted file is saved in: ", newfile)
 
-
-
-
-
 if __name__ == "__main__":
 
     parser = argparse.ArgumentParser()
