@@ -1,14 +1,11 @@
+import hashlib, binascii
 import nacl.secret
 import nacl.utils
-import os.path
-import sys
 import argparse
-import hashlib, binascii
-import os
-import random
-import string
 import numpy as np
+import os
 import re
+import sys
 
 def generate_key():
     '''
