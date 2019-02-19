@@ -24,10 +24,16 @@ can be used for commands:
 
 *Suppose the file name of the original file is: sample.txt*
 
-     python3 project2.py generatekey
-     python3 project2.py encrypt --file "sample.txt"
-     python3 project2.py decrypt --file "sample_encrypted.bin"
-     
+```
+$ python3 project2.py generatekey
+```
+```
+$ python3 project2.py encrypt --file "sample.txt"
+```
+```
+$ python3 project2.py decrypt --file "sample_encrypted.bin"
+```
+
 ## How It Works
      
 The encrypted file is stored in a separate binary file, and the resulting
