@@ -22,9 +22,6 @@ The encrypted file is stored in a separate binary file, and the resulting
 decryption is also saved in a separate text file. When you run the command line
 command it will print out the name of the file created.
 
-I wanted to use 'utf-8' encoding for the decrypted message but was unable to get
-that to work with the linux machines. 
-
 When a file is entered to be encrypted, the first step is to create a specific
 key to be used. An attacker would not know the key; however they should not be
 able to reconstruct the key solely from anything in the code.
