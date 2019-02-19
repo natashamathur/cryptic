@@ -7,7 +7,7 @@ The code is written in python3, and utilizes the following packages:
 * [hashlib](https://docs.python.org/2/library/hashlib.html)
 * [pynacl](https://pynacl.readthedocs.io/en/stable/secret/)
         
-The code is intended to be run from the command line. The following formats
+This utility is intended to be run from the command line. The following formats
 can be used for commands:
 
 *Suppose the file name of the original file is: sample.txt*
@@ -41,9 +41,9 @@ entered, but will never see or know the key.
 This key is then used to make a secret box, which is an example of symmetric key
 encryption. The box can only be opened and interpreted by someone who has the
 right key. The next step is to go through the message in chunks and repeatedly
-use the box to encode each chunk. Each chunk is 1000 characters. This uniformity
+use the box to encode. Each chunk is 1000 characters. This uniformity
 is necessary to enable decryption. Every time the box is called a new random
-nonce is generated. Therefore the encoded text, the authentication information,
+nonce is generated. The encoded text, the authentication information,
 and the nonce size are all printed to the output file.
 
 When the file it to be decrypted the user is once again prompted to enter
