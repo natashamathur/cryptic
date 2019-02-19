@@ -12,12 +12,6 @@ The code is written in python3, and utilizes the following packages:
 
 
 The following built-in modules are also used: `sys`, `re`, `argparse`, `os`
-
-All requisite packages can be installed as such:
-
-```
-$ pip install [package name]
-```
        
 This utility is intended to be run from the command line. The following formats
 can be used for commands:
