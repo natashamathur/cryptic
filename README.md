@@ -2,11 +2,23 @@
 
 The file [`encrypter`](https://github.com/natashamathur/cryptic/blob/master/encrypter.py) contains a utility that can encrypt and decrypt a file and generate the cryptographic keys necessary to do so. It is designed to prevent unauthorized read/write access of the encrytped files either by an inside or outside attacker. 
 
+## Getting Started
+
 The code is written in python3, and utilizes the following packages:
 
-* [hashlib](https://docs.python.org/2/library/hashlib.html)
-* [pynacl](https://pynacl.readthedocs.io/en/stable/secret/)
-        
+* [`hashlib`](https://docs.python.org/2/library/hashlib.html)
+* [`pynacl`](https://pynacl.readthedocs.io/en/stable/secret/)
+* [`numpy`](http://www.numpy.org/)
+
+
+The following built-in modules are also used: `sys`, `re`, `argparse`, `os`
+
+All requisite packages can be installed as such:
+
+```
+$ pip install [package name]
+```
+       
 This utility is intended to be run from the command line. The following formats
 can be used for commands:
 
@@ -16,7 +28,7 @@ can be used for commands:
      python3 project2.py encrypt --file "sample.txt"
      python3 project2.py decrypt --file "sample_encrypted.bin"
      
- ### How It Works
+## How It Works
      
 The encrypted file is stored in a separate binary file, and the resulting
 decryption is also saved in a separate text file. When you run the command line
